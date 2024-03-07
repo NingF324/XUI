@@ -1,0 +1,14 @@
+# 数据库配置
+# localhost:3306改成云服务器的ip地址。uxi改成表名称
+# username与password修改成设置的
+
+spring:
+  #配置数据源信息
+  datasource:
+    #数据源类型
+    type: com.zaxxer.hikari.HikariDataSource
+    #配置连接数据库的信息
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/uxi?serverTimezone=GMT%2B8&characterEncoding=utf-8&userSSL=false
+    username: root
+    password: 162534

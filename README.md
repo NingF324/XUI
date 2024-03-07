@@ -1,57 +1,48 @@
-# 智能 UXI
+# XUI
 
-This project is initialized with [智能 UXI](https://pro.ant.design). Follow is the quick guide for how to use.
+> ——基于用户行为数据的网站体验评分
 
-## Environment Prepare
 
-Install `node_modules`:
 
-```bash
-npm install
-```
+# 项目开发文档
 
-or
+## 项目简介
 
-```bash
-yarn
-```
+本项目的平台拟命名为：基于用户行为数据的网站评分算法，英文名为：Website scoring algorithm based on user behavior data。面向用户开发完整Web端实现数据导入、一键分析、评分展示、问题提示等功能。
 
-## Provided Scripts
 
-智能 UXI provides some useful script to help you quick start and build with web project, code style check and test.
 
-Scripts provided in `package.json`. It's safe to modify or add additional script:
+## 统一版本
 
-### Start project
+前端开发：
 
-```bash
-npm start
-```
+> vue（把版本写上）
 
-### Build project
+后端开发：
 
-```bash
-npm run build
-```
+> Java21.0.2
+>
+> Spring Boot 3.2.3
+>
+> mybatis
+>
+> mybatis-plus
 
-### Check code style
 
-```bash
-npm run lint
-```
 
-You can also use script to auto fix some lint error:
+## 后端架构
 
-```bash
-npm run lint:fix
-```
+> 待定
 
-### Test code
 
-```bash
-npm test
-```
 
-## More
+## 前端设计
 
-You can view full document on our [official website](https://pro.ant.design). And welcome any feedback in our [github](https://github.com/ant-design/ant-design-pro).
+> 待定
+
+
+
+## 数据库设计
+
+> 重要
+
